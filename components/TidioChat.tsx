@@ -13,8 +13,9 @@ export function TidioChat() {
 
     return (
         <Script
-            src="//code.tidio.co/tnej2zbqwbmf6fzlpbadomv1w4pve9i6.js"
+            src="//code.tidio.co/rvvaa2awq7yffy4lpgmppbajxvaojaol.js"
             strategy="lazyOnload"
+            async
         />
     )
 }
