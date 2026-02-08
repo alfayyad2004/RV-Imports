@@ -5,6 +5,8 @@ import { Button } from '@/components/ui/button'
 import { Plus, ChevronLeft, ChevronRight } from 'lucide-react'
 import { AdminVehicleList } from '@/components/AdminVehicleList'
 
+export const dynamic = 'force-dynamic'
+
 export default async function AdminPage({
     searchParams,
 }: {

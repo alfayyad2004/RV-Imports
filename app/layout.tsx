@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/Footer";
@@ -12,7 +12,11 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Ryan's Vehicle Imports & Service Centre | Premium Vehicles in Trinidad",
   description: "Ryan's Vehicle Imports & Service Centre - Your premier choice for Roll-on/Roll-off vehicles in Trinidad. Driving the difference with quality imports and exceptional service.",
-  viewport: "width=device-width, initial-scale=1",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
