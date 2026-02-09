@@ -94,7 +94,7 @@ export default async function VehicleDetails({ params }: { params: Promise<{ id:
                     </Link>
                     <ShareButton
                         title={`${vehicle.year} ${vehicle.make} ${vehicle.model}`}
-                        text={`Check out this ${vehicle.make} ${vehicle.model} at R&R Trading!`}
+                        text={`Check out this ${vehicle.make} ${vehicle.model} at Ryan's Vehicle Imports!`}
                         url={pageUrl}
                     />
                 </div>
