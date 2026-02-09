@@ -88,7 +88,7 @@ export default function Services() {
                         </div>
                         <h3 className="text-xl font-bold mb-3 text-white">Financial Institutions</h3>
                         <p className="text-sm text-zinc-400">
-                            R&R Trading Co. Ltd. is linked to various financial institutions to aid in loan processing and acquisition.
+                            Ryan's Vehicle Imports is linked to various financial institutions to aid in loan processing and acquisition.
                         </p>
                     </div>
 
