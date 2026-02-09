@@ -8,7 +8,7 @@ export function LoadingScreen() {
             <div className="relative w-32 h-32 md:w-48 md:h-48 animate-pulse">
                 <Image
                     src="/logo-new.png"
-                    alt="R&R Trading Logo"
+                    alt="Ryan's Vehicle Imports Logo"
                     fill
                     className="object-contain brightness-0 invert"
                     priority

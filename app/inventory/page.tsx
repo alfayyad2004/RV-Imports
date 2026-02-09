@@ -7,7 +7,7 @@ import { createClient } from '@/utils/supabase/server'
 import Link from 'next/link'
 
 export const metadata = {
-    title: 'Inventory - R&R Trading',
+    title: 'Inventory - Ryan\'s Vehicle Imports',
     description: 'Browse our selection of quality RORO and local used vehicles.'
 }
 

@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const supabase = await createClient()
-    const baseUrl = 'https://rr-trading.com' // Replace with your actual domain
+    const baseUrl = 'https://rvimportstt.netlify.app'
 
     // 1. Static Pages
     const routes = [

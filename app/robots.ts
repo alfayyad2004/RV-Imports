@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
                 disallow: ['/admin/', '/api/'],
             },
         ],
-        sitemap: 'https://rr-trading.com/sitemap.xml',
+        sitemap: 'https://rvimportstt.netlify.app/sitemap.xml',
     }
 }
