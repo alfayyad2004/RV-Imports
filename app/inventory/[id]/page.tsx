@@ -54,9 +54,9 @@ export default async function VehicleDetails({ params }: { params: Promise<{ id:
         notFound()
     }
 
-    const whatsappMessage = `Hi R&R Trading, I'm interested in the ${vehicle.year} ${vehicle.make} ${vehicle.model} listed for $${vehicle.price_ttd?.toLocaleString()} TTD. Is it available?`
+    const whatsappMessage = `Hi Ryan's Vehicle Imports, I'm interested in the ${vehicle.year} ${vehicle.make} ${vehicle.model} listed for $${vehicle.price_ttd?.toLocaleString()} TTD. Is it available?`
     const whatsappLink = `https://wa.me/18681234567?text=${encodeURIComponent(whatsappMessage)}` // Replace with real number
-    const pageUrl = `https://rr-trading.com/inventory/${vehicle.id}` // In prod use env var
+    const pageUrl = `https://rvimportstt.netlify.app/inventory/${vehicle.id}`
 
     // Schema.org Structured Data
     const jsonLd = {
